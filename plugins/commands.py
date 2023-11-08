@@ -36,13 +36,13 @@ async def start(client, message):
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ ☘️", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https://t.me/infinity_Lk")
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https://t.me/ONHIT_CHAT")
             ],[
             InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/about_nimsara")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Shalana_Vishan")
             ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityx_LK")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/ONHIT_CHAT")
             ],[  
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]                      
@@ -77,13 +77,13 @@ async def start(client, message):
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ ☘️", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https://t.me/infinity_Lk")
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🎬", url="https://t.me/ONHIT_EHI")
             ],[
             InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/about_nimsara")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Shalana_Vishan")
             ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityx_LK")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/ONHIT_CHAT")
             ],[          
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
