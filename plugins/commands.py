@@ -20,6 +20,8 @@ async def start(client, message):
             InlineKeyboardButton('🗂️ Uᴩᴅᴀᴛᴇꜱ 🗂️', url=f'https://t.me/{SUPPORT_CHAT}')
             ],[
             InlineKeyboardButton('ℹ️ Hᴇʟᴩ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+            ],[
+            inlinekeyboardButton('✨️ Owner ✨️', url="https://t.me/nimsar_a")
         ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -39,9 +41,9 @@ async def start(client, message):
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔥", url="https://t.me/sinhalafilx")
             ],[
             InlineKeyboardButton("Hᴇʟᴩ 🔥", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Nimsar_a")
+            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
             ],[
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Nimsar_a"),
             InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityworldlk")
             ],[  
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
@@ -80,9 +82,9 @@ async def start(client, message):
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔥", url="https://t.me/sinhalafilx")
             ],[
             InlineKeyboardButton("Hᴇʟᴩ 🔥", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about"),
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Nimsar_a")
+            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
             ],[
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Nimsar_a"),
             InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityworldlk")
             ],[          
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
