@@ -431,14 +431,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("Sᴇᴀʀᴄʜ ☘️", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("Sᴇᴀʀᴄʜ ♂️", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔥", url="https://t.me/sinhalafilx")
             ],[
-            InlineKeyboardButton("Hᴇʟᴩ 🔥", callback_data="help"),
+            InlineKeyboardButton("Hᴇʟᴩ 🌸", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
             ],[
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Nimsar_a"),
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityworldlk")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🎀", url="https://t.me/infinityworldlk")
             ],[  
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
