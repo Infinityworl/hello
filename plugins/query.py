@@ -432,13 +432,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ ♂️", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔥", url="https://t.me/sinhalafilx")
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔥", url="https://t.me/FulokeOraginal")
             ],[
             InlineKeyboardButton("Hᴇʟᴩ 🌸", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
             ],[
-            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/Nimsar_a"),
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🎀", url="https://t.me/infinityworldlk")
+            InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ 🌐", url="https://t.me/KaluKumaraya0"),
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🎀", url="https://t.me/FulokeOraginal")
             ],[  
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
