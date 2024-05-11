@@ -34,14 +34,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("✨️ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴄʜᴀᴛ ✨️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
+            InlineKeyboardButton("🔰 ʜᴇʟᴘ 🔰", callback_data="help"),
+            InlineKeyboardButton("🔋 ᴀʙᴏᴜᴛ 🔋", callback_data="about")
             ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityx_LK")
-            ],[          
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton("🌳 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🌳", url="https://t.me/infinity_LK")
         ]]             
         m = await message.reply_sticker("CAACAgIAAx0CdbtO-QACBCtlhzAHiMK_RyKADl6zP-W23_tE5QACAQEAAladvQoivp8OuMLmNB4E") 
         await asyncio.sleep(2)
@@ -71,15 +69,13 @@ async def start(client, message):
         
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("✨️ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴄʜᴀᴛ ✨️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
+            InlineKeyboardButton("🔰 ʜᴇʟᴘ 🔰", callback_data="help"),
+            InlineKeyboardButton("🔋 ᴀʙᴏᴜᴛ 🔋", callback_data="about")
             ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityx_LK")
-            ],[          
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
-        ]]
+            InlineKeyboardButton("🌳 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🌳", url="https://t.me/infinity_LK")
+        ]]             
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
         await message.reply_photo(photo=random.choice(PICS), caption=START_MESSAGE.format(user=message.from_user.mention, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), parse_mode=enums.ParseMode.HTML)
