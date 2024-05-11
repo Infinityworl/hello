@@ -22,8 +22,9 @@ Mʏ Nᴀᴍᴇ Is {bot}.
 🧬 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/infinity_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a></b>""'
     
     SOURCE_TXT = """<b>NOTE:</b>
-- Developer Channel› :
 
+hello welcome
+    
 <b>ᴅᴇᴠ: <a herf=https://t.me/Nimsar_a>Nimsara</a></b>"""
 
     FILE_TXT = """<b>➤ Hᴇʟᴘ Fᴏʀ Fɪʟᴇ Sᴛᴏʀᴇ</b>
