@@ -278,7 +278,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     else:
         cap = f"<b> මේ තියෙන්නේ ඔයා හොයන {search} සබ්ටයිටල් එක \n\n └ʀᴇQᴜᴇꜱᴛ ʙʏ: {message.from_user.mention} </b>"
-    if imdb and imdb.get('poster'): </b>"
+    if imdb and imdb.get('poster'): 
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
