@@ -274,7 +274,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"බලන්න මේතන ඔයා හොයන ෆිල්ම් එක තියෙද කියලා {search}"
+        cap = f"<b> මේ තියෙන්නේ ඔයා හොයන {search} සබ්ටයිටල් එක </b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -311,7 +311,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("මට මේ නමින් කිසිම Movie එකක් tv series එකක් හොයන්න බැ")
+        k = await msg.reply("මට මේ නමින් කිසිම සබ් එකක් හොයන්න බැ")
         await asyncio.sleep(8)
         return await k.delete()
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
@@ -342,7 +342,7 @@ async def advantage_spell_chok(msg):
     temp.GP_SPELL[msg.id] = movielist
     btn = [[InlineKeyboardButton(text=movie.strip(), callback_data=f"spolling#{user}#{k}",)] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("මට කිසිම දෙයක් හොයගන්න් බැ අනේ බලන්න ඔනි එක පල්ලහයා List එකේ තියෙද කියලා", reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply("මට කිසිම සබ් එකක් හොයන්න බැ අනේ බලන්න ඔනි එක පල්ලහයා List එකේ තියෙද කියලා", reply_markup=InlineKeyboardMarkup(btn))
 
 
 async def manual_filters(client, message, text=False):
