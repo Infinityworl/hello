@@ -8,7 +8,6 @@ Mʏ Nᴀᴍᴇ Is {bot}.
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-🤖 **ᴍʏ ɴᴀᴍᴇ:** [ᴀᴅᴀᴍꜱ ꜱᴜʙ ʙᴏᴛ](https://t.me/{BOT_USERNAME})
 
 📝 **ʟᴀɴɢᴜᴀɢᴇ:** [ᴘʏᴛʜᴏɴᴇ 3](https://www.python.org)
 
@@ -16,9 +15,7 @@ Mʏ Nᴀᴍᴇ Is {bot}.
 
 📡 **ʜᴏꜱᴛᴇᴅ ᴏɴ:** [koyeb](https://app.koyeb.com)
 
-🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [𝐍𝐢𝐦𝐬𝐚𝐫𝐚](https://t.me/Nimsar_a)
-
-👥 **ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ:** [ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ](https://t.me/infinityworldlk)"""
+🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [𝐍𝐢𝐦𝐬𝐚𝐫𝐚](https://t.me/Nimsar_a)</b>"""
     
     SOURCE_TXT = """<b>NOTE:</b>
 - Developer Channel› :<a href=https://t.me/infinityx_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a>
