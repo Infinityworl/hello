@@ -195,6 +195,11 @@ async def auto_filter(client, msg, spoll=False):
             return
         if 2 < len(message.text) < 100:
             search = message.text
+            m=await message.reply_sticker("CAACAgIAAx0CcF2ytAAC6stmJPXCT2ih831MGU8uKZMAAbgUq9kAAl4SAALsmSlJfO_ZpUf3ZDseBA",
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'<b> 🌿 හොයනවා හොයනවා මේ {search} 🌿 </b>', url=f"https://t.me/infinity_lk")]]) 
+            )
+            await asyncio.sleep(0.8)
+            await m.delete()
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
                 if settings["spell_check"]:
