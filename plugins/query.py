@@ -428,16 +428,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         except: await query.message.edit(script.HOW_TO_DOWNLOAD.format(query.from_user.first_name))
 
     elif query.data == "start":                        
-        buttons = [[
-            InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+        buttons =  [[
+            InlineKeyboardButton("✨️ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴄʜᴀᴛ ✨️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("Hᴇʟᴩ 🕸🔥", callback_data="help"),
-            InlineKeyboardButton("Aʙᴏᴜᴛ ⚡", callback_data="about")
+            InlineKeyboardButton("🔰 ʜᴇʟᴘ 🔰", callback_data="help"),
+            InlineKeyboardButton("🔋 ᴀʙᴏᴜᴛ 🔋", callback_data="about")
             ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🍁", url="https://t.me/infinityx_LK")
-            ],[          
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
-        ]]
+            InlineKeyboardButton("🌳 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🌳", url="https://t.me/infinity_LK")
+        ]]        
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), START_MESSAGE.format(user=query.from_user.mention, bot=client.mention), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
        
     elif query.data == "help":
