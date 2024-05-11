@@ -8,12 +8,17 @@ I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Nimsar_a>Nimsara</a>
-✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
-✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
-✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
-✯ Mʏ Vᴇʀꜱɪᴏɴ: Nimsara-ʙᴏᴛ ᴠ4.5.0</b>"""
-   
+
+📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://t.me/infinityx_Lk>ᴘʏᴛʜᴏɴᴇ 3</a>
+
+📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>ᴘʏʀᴏɢʀᴀᴍ</a>
+
+📡 ʜᴏꜱᴛᴇᴅ ᴏɴ: <a href=https://app.heroku.com>ʜᴇʀᴏᴋᴜ</a>
+
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Nimsar_a>𝐍𝐢𝐦𝐬𝐚𝐫𝐚</a>
+    
+🧬 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/infinity_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a></b>""'
+
     SOURCE_TXT = """<b>NOTE:</b>
 - Developer Channel› :<a href=https://t.me/infinityx_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a>
 
