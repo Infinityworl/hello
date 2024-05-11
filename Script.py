@@ -19,6 +19,7 @@ Mʏ Nᴀᴍᴇ Is {bot}.
 🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [𝐍𝐢𝐦𝐬𝐚𝐫𝐚](https://t.me/Nimsar_a)
 
 👥 **ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ:** [ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ](https://t.me/infinityworldlk)"""
+    
     SOURCE_TXT = """<b>NOTE:</b>
 - Developer Channel› :<a href=https://t.me/infinityx_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a>
 
