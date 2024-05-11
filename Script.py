@@ -7,18 +7,22 @@ Mʏ Nᴀᴍᴇ Is {bot}.
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
-    ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
+    ABOUT_TXT = """ ᴍʏ ᴘᴇʀꜱᴏɴᴇʟ ᴅᴇᴀᴛɪʟꜱ 
 
-📝 **ʟᴀɴɢᴜᴀɢᴇ:** [ᴘʏᴛʜᴏɴᴇ 3](https://www.python.org)
+🦠 ᴍʏ ɴᴀᴍᴇ: <a href=https://t.me/{BOT_USERNAME})>ᴀᴅᴀᴍꜱ ᴠ1</b>  
 
-📚 **ʟɪʙʀᴀʀʏ:** [P͢y͢r͢o͢g͢r͢a͢m͢](https://docs.pyrogram.org)
+📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://t.me/infinityx_Lk>ᴘʏᴛʜᴏɴᴇ 3</a>
 
-📡 **ʜᴏꜱᴛᴇᴅ ᴏɴ:** [koyeb](https://app.koyeb.com)
+📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>ᴘʏʀᴏɢʀᴀᴍ</a>
 
-🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [𝐍𝐢𝐦𝐬𝐚𝐫𝐚](https://t.me/Nimsar_a)</b>"""
+📡 ʜᴏꜱᴛᴇᴅ ᴏɴ: <a href=https://app.heroku.com>ʜᴇʀᴏᴋᴜ</a>
+
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Nimsar_a>𝐍𝐢𝐦𝐬𝐚𝐫𝐚</a>
+    
+🧬 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/infinity_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a></b>""'
     
     SOURCE_TXT = """<b>NOTE:</b>
-- Developer Channel› :<a href=https://t.me/infinityx_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a>
+- Developer Channel› :
 
 <b>ᴅᴇᴠ: <a herf=https://t.me/Nimsar_a>Nimsara</a></b>"""
 
