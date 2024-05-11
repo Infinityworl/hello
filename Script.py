@@ -3,17 +3,22 @@ class script(object):
 
 Mʏ Nᴀᴍᴇ Is {bot}.
 
-I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ</b>"""
+ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ꜱᴜʙᴛɪᴛʟᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜱᴇᴀʀᴄʜ ᴀɴʏ ꜱᴜʙᴛɪᴛʟᴇ ᴛᴠ ꜱᴇʀɪᴇꜱ ᴏʀ ᴍᴏᴠɪᴇ </b>"""
     
     HELP_TXT = "Hᴇʏ {}\nHᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ"
 
     ABOUT_TXT = """<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/Nimsar_a>Nimsara</a>
-✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
-✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
-✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
-✯ Mʏ Vᴇʀꜱɪᴏɴ: Nimsara-ʙᴏᴛ ᴠ4.5.0</b>"""
-   
+🤖 **ᴍʏ ɴᴀᴍᴇ:** [ᴀᴅᴀᴍꜱ ꜱᴜʙ ʙᴏᴛ](https://t.me/{BOT_USERNAME})
+
+📝 **ʟᴀɴɢᴜᴀɢᴇ:** [ᴘʏᴛʜᴏɴᴇ 3](https://www.python.org)
+
+📚 **ʟɪʙʀᴀʀʏ:** [P͢y͢r͢o͢g͢r͢a͢m͢](https://docs.pyrogram.org)
+
+📡 **ʜᴏꜱᴛᴇᴅ ᴏɴ:** [koyeb](https://app.koyeb.com)
+
+🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ:** [𝐍𝐢𝐦𝐬𝐚𝐫𝐚](https://t.me/Nimsar_a)
+
+👥 **ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ:** [ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ](https://t.me/infinityworldlk)"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Developer Channel› :<a href=https://t.me/infinityx_Lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a>
 
