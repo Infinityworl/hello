@@ -25,7 +25,7 @@ Mʏ Nᴀᴍᴇ Is {bot}.
 
 🌿 ᴍᴏᴠɪᴇꜱ: <a href=https://t.me/infinity_lk>ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ</a>
 
-🔋 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='tg://settings>ᴛʜɪꜱ ɢᴜʏ</a>"""
+🔋 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href='tg://settings'>ᴛʜɪꜱ ɢᴜʏ</a></b>"""
 
     FILE_TXT = """<b>➤ Hᴇʟᴘ Fᴏʀ Fɪʟᴇ Sᴛᴏʀᴇ</b>
 
