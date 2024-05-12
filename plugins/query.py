@@ -440,7 +440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
        
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('📚 ⚙ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ꜱᴜʙᴛɪᴛʟᴇ ʙᴏᴛ 📚', 'admin')            
+            InlineKeyboardButton('⚙ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ꜱᴜʙᴛɪᴛʟᴇ ʙᴏᴛ ⚙', 'admin')            
             ],[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
             InlineKeyboardButton('« Bᴀᴄᴋ', 'start')           
@@ -449,7 +449,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('Devloper 📜', 'source')
+            InlineKeyboardButton('🌿 ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ 🌿', 'source')
             ],[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
             InlineKeyboardButton('« Bᴀᴄᴋ', 'start')          
