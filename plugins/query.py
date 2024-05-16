@@ -461,9 +461,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.CONNECTION_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
 
-    elif query.data == "help":
+    elif query.data == "nimsara":
         buttons = [[
-            InlineKeyboardButton('⚙️ Aᴅᴍɪɴ Pᴀɴᴇʟ ⚙️', 'admin')            
+            InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ 🔰', 'admin')            
             ],[
             InlineKeyboardButton('Fɪʟᴛᴇʀꜱ', 'openfilter'),
             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛ', 'coct')
@@ -477,6 +477,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
             InlineKeyboardButton('« Bᴀᴄᴋ', 'start')           
         ]]
+        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ADMIN_TXT.format(query.from_user.mention), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
          
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
