@@ -7,7 +7,7 @@ Mʏ Nᴀᴍᴇ Is {bot}.
 
     HELP_TXT = """<b>Hᴇʏ {} Hᴇʀᴇ Mꜱ Mʏ Hᴇʟᴩ</b>"""
 
-    ABOUT_TXT = """<b>🔰 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/infinityx_Lk>ᴀᴅᴀᴍ</a>
+    ABOUT_TXT = """<b>🔰 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/infinityx_Lk>Aԃԃαɱʂ</a>
 
 📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://t.me/infinityx_Lk>ᴘʏᴛʜᴏɴᴇ 3</a>
 
