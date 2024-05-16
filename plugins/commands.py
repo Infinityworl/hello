@@ -39,7 +39,7 @@ async def start(client, message):
             InlineKeyboardButton("🔰 ʜᴇʟᴘ 🔰", callback_data="help"),
             InlineKeyboardButton("🔋 ᴀʙᴏᴜᴛ 🔋", callback_data="about")
             ],[
-            InlineKeyboardButton("🌳 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🌳", url="https://t.me/infinity_LK")
+            InlineKeyboardButton("🌳 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🌳", callback_data="nimsara")
         ]]             
         m = await message.reply_sticker("CAACAgIAAx0CdbtO-QACBCtlhzAHiMK_RyKADl6zP-W23_tE5QACAQEAAladvQoivp8OuMLmNB4E") 
         await asyncio.sleep(2)
@@ -74,7 +74,7 @@ async def start(client, message):
             InlineKeyboardButton("🔰 ʜᴇʟᴘ 🔰", callback_data="help"),
             InlineKeyboardButton("🔋 ᴀʙᴏᴜᴛ 🔋", callback_data="about")
             ],[
-            InlineKeyboardButton("🌳 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🌳", url="https://t.me/infinity_LK")
+            InlineKeyboardButton("🌳 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🌳", callback_data="nimsara")
         ]]             
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
