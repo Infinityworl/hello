@@ -449,20 +449,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🌿 ɪɴꜰɪɴɪᴛʏ ᴍᴏᴠɪᴇꜱ 🌿', 'source')
-            ],[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
             InlineKeyboardButton('« Bᴀᴄᴋ', 'start')          
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ABOUT_TXT.format(temp.B_NAME), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
         
-    elif query.data == "source":
-        buttons = [[
-            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('‹ Bᴀᴄᴋ', 'about')
-        ]]
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.SOURCE_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
-    
     elif query.data == "admin":
         buttons = [[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
