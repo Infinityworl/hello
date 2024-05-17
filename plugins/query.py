@@ -435,9 +435,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
        
     elif query.data == "nimsara":
         buttons = [[
-            InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ 🔰', 'about')            
+            InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ 🔰', url='https://github.com/MrMKN/PROFESSOR-BOT')
             ],[
-            InlineKeyboardButton('Fɪʟᴛᴇʀꜱ', 'openfilter'),
+            InlineKeyboardButton('⚠️️ ᴍʏ ᴀʙᴏᴜᴛ ⚠️️', 'about'),
             InlineKeyboardButton('Cᴏɴɴᴇᴄᴛ', 'coct')
             ],[                       
             InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', 'newdata'),
@@ -454,10 +454,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
-            InlineKeyboardButton('« Bᴀᴄᴋ', 'start')          
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'nimsara')          
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ABOUT_TXT.format(temp.B_NAME), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
-         
+        
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
         grpid = await active_connection(str(query.from_user.id))
