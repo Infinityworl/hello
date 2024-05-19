@@ -435,16 +435,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
        
     elif query.data == "nimsara":
         buttons = [[
-            InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ 🔰', url='https://github.com/MrMKN/PROFESSOR-BOT')
+            InlineKeyboardButton('🔰 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ  🔰', url='https://t.me/infinity_Lk')
             ],[
-            InlineKeyboardButton('⚠️️ ᴍʏ ᴀʙᴏᴜᴛ ⚠️️', 'about'),
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛ', 'coct')
+            InlineKeyboardButton('🌳 ɪɴꜰᴏʀᴍᴀᴛɪᴏɴꜱ 🌳', 'about'),
+            InlineKeyboardButton('🌳 ᴏᴜʀ ɢʀᴏᴜᴘ 🌳 ', url='https://t.me/infinityworldlk')
             ],[                       
-            InlineKeyboardButton('Fɪʟᴇ Sᴛᴏʀᴇ', 'newdata'),
-            InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅᴇ', 'extmod')
-            ],[           
-            InlineKeyboardButton('Gʀᴏᴜᴩ Mᴀɴᴀɢᴇʀ', 'gpmanager'), 
-            InlineKeyboardButton('Bᴏᴛ Sᴛᴀᴛᴜꜱ ❄️', 'stats')
+            InlineKeyboardButton('🔰 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ  🔰', 'stats')
             ],[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
             InlineKeyboardButton('« Bᴀᴄᴋ', 'start')           
