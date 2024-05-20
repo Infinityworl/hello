@@ -195,7 +195,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if 2 < len(message.text) < 100:
             search = message.text
-            m=await message.reply_text("<b> Searching Your {search} Subtitle 🔰</b>")
+            m=await message.reply_text("<b> Searching Your Subtitle 🔰</b>")
             await asyncio.sleep(0.8)
             await m.delete()
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
