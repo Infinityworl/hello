@@ -2,7 +2,6 @@ import os, re, json, base64, logging, random, asyncio, pytz
 
 from Script import script
 from datetime import datetime
-from database.refer import referdb
 from database.users_chats_db import db
 from pyrogram import Client, filters, enums
 from pyrogram.errors import ChatAdminRequired, FloodWait
