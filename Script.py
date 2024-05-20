@@ -218,3 +218,7 @@ Wᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.
 📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
 🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
 
+
+    REPORT_MSG = """ʀᴇᴘᴏʀᴛ ᴛᴏ ᴀᴅᴍɪɴs"""
+
+
