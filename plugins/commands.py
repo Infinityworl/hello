@@ -206,9 +206,15 @@ async def start(client, message):
             title = file.file_name
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
-            btn = [[
-                InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", url=f'https://t.me/Silicon_Bot_Update')
-            ]]
+            buttons = [[
+                    InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/sewxiy"),
+                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/weebs_support')
+                ],[
+                    InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/codeflix_bots")
+                  ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
             if CUSTOM_FILE_CAPTION:
                 try: f_caption=CUSTOM_FILE_CAPTION.format(mention=message.from_user.mention, file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
                 except: return
@@ -223,9 +229,15 @@ async def start(client, message):
     title = files.file_name
     size=get_size(files.file_size)
     f_caption=files.caption
-    btn = [[
-        InlineKeyboardButton("❗ ɢᴇᴛ ꜰɪʟᴇ ᴀɢᴀɪɴ ❗", url=f'https://t.me/Silicon_Bot_Update')
-    ]]
+    buttons = [[
+                    InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/sewxiy"),
+                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/weebs_support')
+                ],[
+                    InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/codeflix_bots")
+                  ]]
+    reply_markup = InlineKeyboardMarkup(buttons)
     if CUSTOM_FILE_CAPTION:
         try:
             f_caption=CUSTOM_FILE_CAPTION.format(mention=message.from_user.mention, file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='' if f_caption is None else f_caption)
