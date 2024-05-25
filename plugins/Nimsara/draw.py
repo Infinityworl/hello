@@ -3,8 +3,6 @@ from lexica import Client as ApiClient, AsyncClient
 from pyrogram.types import InlineKeyboardButton
 from math import ceil
 import asyncio
-from Nimsara import app
-
 
 
 api = ApiClient()
