@@ -78,7 +78,7 @@ LOG_MSG = "{} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ....✨\n\n🗓️ Dᴀᴛᴇ : {}\n⏰
 #other
 
 BOT_USERNAME = environ.get("BOT_USERNAME", "Charu_lkbot")
-DEEP_API = os.environ.get("DEEP_API", "5163c49d-b696-47f1-8cf9-4801738436dd")
+DEEP_API = environ.get("DEEP_API", "5163c49d-b696-47f1-8cf9-4801738436dd")
 
 
 
