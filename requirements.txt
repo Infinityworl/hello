@@ -36,6 +36,7 @@ wget
 pytz
 datetime
 shortzy
+lexica-api==1.5.4
 
 
 
