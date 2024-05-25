@@ -1,6 +1,6 @@
 import httpx
 import os
-import config 
+import info 
 from pyrogram import Client, filters
 import aiofiles, aiohttp, requests
 
@@ -43,7 +43,7 @@ async def draw_image(bot, message):
             'grid_size': '1',
             'image_generator_version': 'hd',
         },
-        headers={'api-key': config.DEEP_API}
+        headers={'api-key': info.DEEP_API}
     ).json()
     image_link = data.get("output_url")  # Fix: Use .get() method to handle potential missing key
     if not image_link:
