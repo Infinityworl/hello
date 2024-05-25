@@ -18,14 +18,14 @@ async def load_image(image: str, link: str):
 
 
 @Client.on_message(filters.command("getdraw", prefixes="/"))
-async def draw_image(bot, message):
+async def draw_image(client, message):
     chat_id = message.chat.id
     if message.sender_chat:
         user_id = message.sender_chat.id
     else:
         user_id = message.from_user.id
     replied = message.reply_to_message
-    if not config.DEEP_API:
+    if not info.DEEP_API:
         return await message.reply_text("I can't upscale !")
     if replied:
         if replied.text:
