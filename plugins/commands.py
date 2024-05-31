@@ -232,17 +232,13 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🚸 ᴅᴇʟᴇᴛᴇ', callback_data='close_data') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔰 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 🔰', url=f'https://t.me/infinity_Lk') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )   
     k = await client.send_message(chat_id = message.from_user.id, text=f"<b> ❗️ <u>ɪᴍᴘᴏʀᴛᴀɴᴛ ɴᴏᴛɪᴄᴇ</u> ❗️</b>\n\n<b>🔰 මේතන තියෙන Subtitles ගොඩක්ම තියෙන්නේ zip ෆයිල් විදියට</b>\n\n<b><i>🔰 එක නිසා ඔයලාට මේ ෆයිල්ස් Download කරගෙන Extract කරගන්න වෙනවා.</i></b>")
     await asyncio.sleep(600)
     await msg.delete()
-    for x in filesarr:
-            await x.delete()
-    await k.edit_text("<b>ʏᴏᴜʀ ᴠɪᴅᴇᴏꜱ / ꜰɪʟᴇꜱ ᴀʀᴇ ᴅᴇʟᴇᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
-    return
-                    
+                        
 
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
