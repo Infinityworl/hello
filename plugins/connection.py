@@ -95,7 +95,7 @@ async def deleteconnection(client, message):
             await message.reply_text("This chat isn't connected to me!\nDo /connect to connect.", quote=True)
 
 
-@Client.on_message(filters.private & filters.command(["connections"]))
+@Client.on_message(filters.private & filters.command(["conn"]))
 async def connections(client, message):
     userid = message.from_user.id
     groupids = await all_connections(str(userid))
