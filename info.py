@@ -81,6 +81,8 @@ LOG_MSG = "{} Iꜱ Rᴇsᴛᴀʀᴛᴇᴅ....✨\n\n🗓️ Dᴀᴛᴇ : {}\n⏰
 
 BOT_USERNAME = environ.get("BOT_USERNAME", "Charu_lkbot")
 DEEP_API = environ.get("DEEP_API", "5163c49d-b696-47f1-8cf9-4801738436dd")
+IS_FSUB = is_enabled(environ.get('IS_FSUB', "True"), True)
+
 
 
 
