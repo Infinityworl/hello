@@ -315,8 +315,8 @@ async def advantage_spell_chok(msg):
     gs_parsed = []
     if not g_s:
         k = await msg.reply("මට මේ නමින් කිසිම සබ් එකක් හොයන්න බැ")
-        await asyncio.sleep(8)
-        return await k.delete()
+        await asyncio.sleep(0.8)
+        await k.delete()
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE)  # look for imdb / wiki results
     gs = list(filter(regex.match, g_s))
     gs_parsed = [re.sub(r'\b(\-([a-zA-Z-\s])\-\simdb|(\-\s)?imdb|(\-\s)?wikipedia|\(|\)|\-|reviews|full|all|episode(s)?|film|movie|series)', '', i, flags=re.IGNORECASE) for i in gs]
@@ -340,8 +340,8 @@ async def advantage_spell_chok(msg):
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
         k = await msg.reply("මට කිසිම දෙයක් හොයගන්න් බැ අනේ මේ නමින් බලන්න ඔනි එක පල්ලහයා List එකේ තියෙද කියලා")
-        await asyncio.sleep(8)
-        return await k.delete()
+        await asyncio.sleep(0.8)
+        await k.delete()
     temp.GP_SPELL[msg.id] = movielist
     btn = [[InlineKeyboardButton(text=movie.strip(), callback_data=f"spolling#{user}#{k}",)] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
