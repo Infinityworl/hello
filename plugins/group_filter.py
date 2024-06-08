@@ -345,8 +345,9 @@ async def advantage_spell_chok(msg):
     temp.GP_SPELL[msg.id] = movielist
     btn = [[InlineKeyboardButton(text=movie.strip(), callback_data=f"spolling#{user}#{k}",)] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("මට කිසිම සබ් එකක් හොයන්න බැ අනේ බලන්න ඔනි එක පල්ලහයා List එකේ තියෙද කියලා", reply_markup=InlineKeyboardMarkup(btn))
-
+    N = await msg.reply("මට කිසිම සබ් එකක් හොයන්න බැ අනේ බලන්න ඔනි එක පල්ලහයා List එකේ තියෙද කියලා", reply_markup=InlineKeyboardMarkup(btn))
+    await asyncio.sleep(0.8)
+    await N.delete()
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
